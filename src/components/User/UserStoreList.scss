@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  // width: 50%;
+  align-items: center;
+
+  h1{
+    font-weight: 400;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .avatar {
+    display: inline-flex;
+    flex-direction: column;
+
+    .image {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .btn-wrapper {
+      display: flex;
+      gap: 8px;
+
+      .label {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 4px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+      }
+
+      button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        min-width: 44px;
+        padding: 4px;
+      }
+    }
+
+  }
+}

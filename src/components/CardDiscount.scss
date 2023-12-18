@@ -1,0 +1,34 @@
+.discount{
+    margin: 20px;
+}
+
+.discount-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.discount-item {
+    box-shadow: 2px 4px 8px 2px rgba(112, 103, 103, 0.3);
+    margin: 0.5rem;
+    border-radius: 10px;
+    width: 330px;
+    height: 220px;
+}
+
+.discount-list img {
+    width: 330px;
+    height: 220px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #d9d9d9 0%, #d9d9d9 100%);
+
+}
+
+.discount-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 2.5rem;
+    // align-items: center;
+    // text-align: center;
+}

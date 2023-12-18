@@ -1,0 +1,95 @@
+.card-item {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.item-wrapper{
+    margin: 10px;
+    // padding: 10px;
+}
+
+.text-wrapper{
+    padding: 10px;
+}
+
+.recomendation-list {
+    display: flex;
+    // gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.recomendation-list>div {
+    width: 330px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 1px 4px 5.300000190734863px rgba(0, 0, 0, 0.16);
+}
+
+.recomendation-list img {
+    width: 330px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: -5px;
+}
+
+.recomendation-list div h4,
+.recomendation-list div p {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.recomendation-list div{
+    text-decoration: none;
+}
+
+.alamat-text {
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: -6px;
+    font-weight: 300;
+}
+
+.description-text {
+    overflow: hidden;
+    font-size: 0.8rem;
+    color: #5e5d5d;
+    text-overflow: ellipsis;
+    /* Jika deskripsi terlalu panjang, gunakan ellipsis */
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* Batasi deskripsi menjadi 2 baris */
+    -webkit-box-orient: vertical;
+    text-decoration: none;
+}
+
+.title-text{
+    font-size: 1.5rem;
+}
+
+.distance-text{
+    font-size: 0.7rem;
+    margin-top: -6px;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+
+.recomendation-title {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+

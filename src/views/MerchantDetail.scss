@@ -1,0 +1,91 @@
+.button-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+
+    .option {
+        min-height: 44px;
+        min-width: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+}
+
+.merchant {
+    width: 100%;
+    height: 690px;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.merchant-image {
+    width: 250px;
+    /* Ubah ukuran sesuai kebutuhan */
+    height: 250px;
+    /* Ubah ukuran sesuai kebutuhan */
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.merchant-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Untuk memastikan gambar terlihat proporsional */
+}
+
+.list-title{
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+.button-contact{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-socmed{
+    width: 25px;
+    height: 25px;
+}
+
+.merchant-title{
+    font-weight: 500;
+}
+
+.merchant-address{
+    font-size: 1rem;
+    margin-top: -8px;
+    font-weight: 300;
+}
+
+.merchant-distance{
+    font-size: 0.8rem;
+    margin-top: -7px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.merchant-description{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.merchant-status{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
