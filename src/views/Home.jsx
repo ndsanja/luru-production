@@ -33,13 +33,13 @@ export default function Home() {
           <SearchBar />
         </div>
       </section>
-      <section>
+      <section className="discount-wrapper">
         <h2 className="discount-title">Spesial Offer</h2>
         <div className="discount">
           <Discount />
         </div>
       </section>
-      <section>
+      <section className="recomendation-wrapper">
         <div className="card-item">
           <h2 className="recomendation-title">Rekomendasi</h2>
           <Recomendation merchants={merchants} />

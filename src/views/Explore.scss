@@ -107,13 +107,13 @@ img {
     opacity: 100%;
 }
 
-.button-wrapper{
+.button-wrapper {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.btnCari{
+.btnCari {
     outline: 0;
     background: rgb(255, 255, 255, 0.8);
     box-shadow: transparent 0px 0px 0px 1px inset;
@@ -121,4 +121,34 @@ img {
     border-radius: 14px;
     border: 1px solid #333;
     color: black;
+}
+
+@media (max-width: 520px) {
+    .explore-wrapper-main h2 {
+        font-size: 5rem;
+    }
+
+    .button-container {
+        padding: 0.3em 2em;
+    }
+
+    .button-wrapper button {
+        padding: 0.1.5em 1.5em;
+        font-size: 0.7rem;
+    }
+
+    .button-container button {
+        padding: 0.1.5em 1.5em;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 445px) {
+    .explore-wrapper-main h2 {
+        font-size: 4rem;
+    }
+
+    .button-container {
+        padding: 0.2em 1em;
+    }
 }
